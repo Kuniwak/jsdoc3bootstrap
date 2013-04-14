@@ -1,0 +1,37 @@
+{
+  "name": "jsdoc3bootstrap",
+  "description": "Jsdoc3 template makes your JavaScript document more beautiful and functional.",
+  "version": "0.0.0",
+  "author": "Orga Chem <orga.chem.job@gmail.com>",
+  "keywords": [
+    "jsdoc",
+    "jsdoc3",
+    "bootstrap",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/OrgaChem/jsdoc3bootstrap.git"
+  },
+  "bugs": {
+    "mail": "orga.chem.job@gmail.com",
+    "url": "https://github.com/OrgaChem/jsdoc3bootstrap/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "jsdoctypeparser": "<=1.0.0",
+    "underscore": "<=1.4.0"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.8.0",
+    "jsdoc": "git://github.com/jsdoc3/jsdoc.git"
+  },
+  "license": "MIT"
+}
